@@ -5,9 +5,11 @@
 
 <div class ="class1">
 
-<div id ="count2"><a href ="https://en.wikipedia.org/wiki/Superbike_racing">Home</a></div>
-<div id ="count3"><a href ="https://unsplash.com/s/photos/motorbike">Downloads</a></div>
-<div id ="count4"><a href ="https://forms.gle/m85V4q2ejBfBHN1b7">Signup</a></div>
+<div id ="count2"><a href ="file:///home/gaurav/projects/masai/sprint_1/index.html">Home</a></div>
+<div id ="count3"><a href ="file:///home/gaurav/projects/masai/sprint_1/gallery.html">Gallery</a></div>
+<div id ="count4"><a href ="file:///home/gaurav/projects/masai/sprint_1/form.html">Signup</a></div>
+<div id ="count6"><a href ="file:///home/gaurav/projects/masai/sprint_1/Survey.html">Survey</a></div>
+
 </div>
 
 
@@ -74,44 +76,7 @@ Triumph Motorcycles Ltd is the largest UK-owned motorcycle manufacturer, establi
 
 </div>
 
-<div id ="id3">Hope you had a wonderful time reading about your <br>favourite bikes. For more information click this <a href="https://en.wikipedia.org/wiki/Motorcycle">link</a></div>
 
-
-
-<div id ="id4">
-
-    Still confused about your fav bike???<br>
-
-    Take this short survey .
-
-
-</div>
-
-<div id ="id5">
-    <form>
-
-    <div><label>Name</label>
-    <input type ="text">
-    </div>
-
-    <div><label>Email</label>
-    <input type ="email">
-    </div>
-
-    <div><label>Favorite Bike?<br></label>
-    <select>
-        <option >Please choose an option</option>
-        <option>Harley-Davidson</option>
-        <option>Triumph</option>
-        <option>Ducati</option>
-        <option>Royal Enfield</option>
-    </select>
-    </div>
-
-    </form>
-    
-   
-</div>
 
 </div>
 
@@ -158,43 +123,42 @@ Triumph Motorcycles Ltd is the largest UK-owned motorcycle manufacturer, establi
 
     <style type ="text/css">
     
-#count{background-color:grey;margin-left:5px;margin-right: 5px;
-display: grid;grid-template-columns: auto auto;grid-row: 100px 50px 500px 50px 400px 400px 400px 400px 400px 4000px 400px;grid-gap: 20px;
+#count{background-color:honeydew;margin-left:5px;margin-right: 5px;
+display: grid;grid-template-columns: auto auto;grid-row: auto auto auto auto auto auto auto auto ;grid-gap: 10px;
 ;
 
 }
 
 
-.class1{font-size: 50px;text-align: center;grid-area: 1/1/2/span 2;background-color:white}
+.class1{font-size: 50px;grid-area: 1/1/2/span 2;}
 
-.class2{font-size: 30px;font-style: italic;text-align: center;grid-area: 2/1/3/span 2;}
+.class2{font-size: 30px;font-style: italic;text-align: center;grid-area: 2/1/3/span 2;color:black}
 
 .class3{font-size: 30px;text-align: center;grid-area: 4/1/5/span 2;font-style: oblique;color: blue;}
 
-.class5{width:600px;height:400px}
+.class5{width:100%}
 
-.class6,.class7,.class8{font-size: 25px;background-color: darkgrey;text-align:left;padding:20px}
+.class6,.class7,.class8{font-size: 25px;background-color: darkgrey;text-align:justify;padding:20px}
 
 .class10{text-align:right}
 
 
 
-#count2,#count3{color:red;text-align: left;margin:20px;float:left}
-#count4{float:right;margin:20px;text-align: right;}
-#count3{margin-left: 300px;}
+#count6,#count2,#count3{color:black;text-align: left;margin:20px;}
+#count2,#count3,#count4,#count6{float:left;margin:20px;padding:10px;text-decoration: none;}
+
 
 
 
 #id2{grid-area: 3/1/4/span 2;}
-#id1{width:1260px;height:800px}
-#id3{grid-area: 9/1/ span 1/span 2;text-align: center; font-size: 30px;}
-#id4{color:red; font-size: 30px;padding:20px}
+#id1{width:100%}
+
 
 
 @media(max-width:992px){
 
 
-   #id1,.class5{height:400;width:600px} 
+   #id1,.class5{width:100%;height:100%} 
    #count2{clear:left}
    #count{clear:right}
 }
@@ -204,12 +168,12 @@ display: grid;grid-template-columns: auto auto;grid-row: 100px 50px 500px 50px 4
 
 @media(max-width: 748px){
 
-#id1,.class5{width:350px;height:350px}
+#id1,.class5{width:100%}
 #count2,#count3,#count4{margin:30px}
 #count4{clear:right}
 #count{display:flex;flex-direction: column;}    
 }
-
+.class1{text-align: center;font-size: 30px;}
     
     
 </style>
