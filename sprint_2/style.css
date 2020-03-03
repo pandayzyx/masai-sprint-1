@@ -1,0 +1,73 @@
+#count {
+	border: 1px solid black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 15px;
+	margin-right: 15px;
+	height: 640px;
+	background: linear-gradient(
+			to bottom,
+			rgba(255, 255, 255, 0.15) 0%,
+			rgba(0, 0, 0, 0.15) 100%
+		),
+		radial-gradient(
+				at top center,
+				rgba(255, 255, 255, 0.4) 0%,
+				rgba(0, 0, 0, 0.4) 120%
+			)
+			#989898;
+	background-blend-mode: multiply, multiply;
+}
+
+button {
+	padding: 10px;
+	margin: 5px;
+
+	text-align: center;
+}
+
+body {
+	margin-top: 40px;
+}
+
+.center-text {
+	text-align: center;
+	color: black;
+}
+
+#rice,
+#pulse,
+#sugar {
+	margin-left: 20px;
+	margin-bottom: 15px;
+	margin-right: 15px;
+}
+
+#stockdisplayer {
+	margin-left: 500px;
+}
+
+#topmost {
+	color: blue;
+}
+
+#alertbox {
+	color: red;
+	font-size: 20px;
+}
+
+@media (max-width: 600px) {
+	#stockdisplayer {
+		margin-left: 30px;
+	}
+
+	.center-text {
+		font-size: 15px;
+	}
+
+	#displayingrice,
+	#displayingsugar,
+	#displayingpulse {
+		font-size: 25px;
+	}
+}
