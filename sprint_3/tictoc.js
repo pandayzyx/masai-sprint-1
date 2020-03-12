@@ -8,6 +8,7 @@ var counter = 0;
 var x;
 var bdy = document.querySelector("body");
 var display_result1 = document.getElementById("diplay_result1");
+var z = document.getElementsByClassName("class1");
 
 //Function to create div for making table(boxmaking for grid)
 function create_div() {
@@ -46,15 +47,9 @@ function change_things(event) {
 //Function to check winner and Looser
 
 function check_winner() {
-	var z = document.getElementsByClassName("class1");
-	//console.log(z);
 	var p1 = document.getElementById("player1").value;
 	var p2 = document.getElementById("player2").value;
-	//p1.style.color = "red";
-	//p2.style.color = "red";
-	//console.log(p1, p2);
 
-	//console.log(z);
 	if (
 		z[0].textContent == z[1].textContent &&
 		z[1].textContent == z[2].textContent &&
@@ -202,22 +197,23 @@ function check_winner() {
 	} else {
 		counter++;
 	}
-	check_draw(counter);
+	return counter;
 }
-//console.log(counter)
 
 //Function to predict draw
-function check_draw(a) {
+function check_draw() {
 	var b = 0;
-	var w = document.getElementsByClassName("class1");
-	for (i = 0; i < w.length; i++) {
-		if (w[i].textContent != "") {
+	check_winner(counter);
+	//console.log(z);
+	for (j = 0; j < z.length; j++) {
+		if (z[j].textContent != "") {
 			b++;
 		}
 	}
-	console.log(b, a);
-	if (b == w.length && a == w.length) {
-		display_result1.innerHTML = "DRAW";
+
+	console.log(b, counter);
+	if (b == z.length && counter >= 18) {
+		display_result1.textContent = "DRAW";
 	}
 	b = 0;
 }
