@@ -56,12 +56,18 @@ function check_winner() {
 		z[1].textContent != ""
 	) {
 		if (z[0].textContent === "X") {
+			z[0].style.color = "red";
+			z[1].style.color = "red";
+			z[2].style.color = "red";
 			if (p1 == "") {
 				display_result1.innerHTML = "Player1" + " " + "You Won";
 			} else {
 				display_result1.innerHTML = p1 + " " + "You Won";
 			}
 		} else if (z[0].textContent === "0") {
+			z[0].style.color = "red";
+			z[1].style.color = "red";
+			z[2].style.color = "red";
 			if (p2 == "") {
 				display_result1.innerHTML = "Player2" + " " + "You Won";
 			} else {
@@ -74,12 +80,18 @@ function check_winner() {
 		z[3].textContent != ""
 	) {
 		if (z[3].textContent === "X") {
+			z[3].style.color = "red";
+			z[4].style.color = "red";
+			z[5].style.color = "red";
 			if (p1 == "") {
 				display_result1.innerHTML = "Player1" + " " + "You Won";
 			} else {
 				display_result1.innerHTML = p1 + " " + "You Won";
 			}
 		} else if (z[3].textContent === "0") {
+			z[3].style.color = "red";
+			z[4].style.color = "red";
+			z[5].style.color = "red";
 			if (p2 == "") {
 				display_result1.innerHTML = "Player2" + " " + "You Won";
 			} else {
@@ -92,12 +104,18 @@ function check_winner() {
 		z[6].textContent != ""
 	) {
 		if (z[6].textContent === "X") {
+			z[6].style.color = "red";
+			z[7].style.color = "red";
+			z[8].style.color = "red";
 			if (p1 == "") {
 				display_result1.innerHTML = "Player1" + " " + "You Won";
 			} else {
 				display_result1.innerHTML = p1 + " " + "You Won";
 			}
 		} else if (z[6].textContent === "0") {
+			z[6].style.color = "red";
+			z[7].style.color = "red";
+			z[8].style.color = "red";
 			if (p2 == "") {
 				display_result1.innerHTML = "Player2" + " " + "You Won";
 			} else {
@@ -110,12 +128,18 @@ function check_winner() {
 		z[0].textContent != ""
 	) {
 		if (z[0].textContent === "X") {
+			z[0].style.color = "red";
+			z[3].style.color = "red";
+			z[6].style.color = "red";
 			if (p1 == "") {
 				display_result1.innerHTML = "Player1" + " " + "You Won";
 			} else {
 				display_result1.innerHTML = p1 + " " + "You Won";
 			}
 		} else if (z[0].textContent === "0") {
+			z[0].style.color = "red";
+			z[3].style.color = "red";
+			z[6].style.color = "red";
 			if (p2 == "") {
 				display_result1.innerHTML = "Player2" + " " + "You Won";
 			} else {
@@ -128,12 +152,18 @@ function check_winner() {
 		z[1].textContent != ""
 	) {
 		if (z[1].textContent === "X") {
+			z[1].style.color = "red";
+			z[4].style.color = "red";
+			z[7].style.color = "red";
 			if (p1 == "") {
 				display_result1.innerHTML = "Player1" + " " + "You Won";
 			} else {
 				display_result1.innerHTML = p1 + " " + "You Won";
 			}
 		} else if (z[1].textContent === "0") {
+			z[1].style.color = "red";
+			z[4].style.color = "red";
+			z[7].style.color = "red";
 			if (p2 == "") {
 				display_result1.innerHTML = "Player2" + " " + "You Won";
 			} else {
@@ -146,12 +176,18 @@ function check_winner() {
 		z[2].textContent != ""
 	) {
 		if (z[2].textContent === "X") {
+			z[2].style.color = "red";
+			z[5].style.color = "red";
+			z[8].style.color = "red";
 			if (p1 == "") {
 				display_result1.innerHTML = "Player1" + " " + "You Won";
 			} else {
 				display_result1.innerHTML = p1 + " " + "You Won";
 			}
 		} else if (z[2].textContent === "0") {
+			z[2].style.color = "red";
+			z[5].style.color = "red";
+			z[8].style.color = "red";
 			if (p2 == "") {
 				display_result1.innerHTML = "Player2" + " " + "You Won";
 			} else {
@@ -164,12 +200,18 @@ function check_winner() {
 		z[2].textContent != ""
 	) {
 		if (z[2].textContent === "X") {
+			z[2].style.color = "red";
+			z[4].style.color = "red";
+			z[6].style.color = "red";
 			if (p1 == "") {
 				display_result1.innerHTML = "Player1" + " " + "You Won";
 			} else {
 				display_result1.innerHTML = p1 + " " + "You Won";
 			}
 		} else if (z[2].textContent === "0") {
+			z[2].style.color = "red";
+			z[4].style.color = "red";
+			z[6].style.color = "red";
 			if (p2 == "") {
 				display_result1.innerHTML = "Player2" + " " + "You Won";
 			} else {
@@ -182,12 +224,18 @@ function check_winner() {
 		z[0].textContent != ""
 	) {
 		if (z[0].textContent === "X") {
+			z[0].style.color = "red";
+			z[4].style.color = "red";
+			z[8].style.color = "red";
 			if (p1 == "") {
 				display_result1.innerHTML = "Player1" + " " + "You Won";
 			} else {
 				display_result1.innerHTML = p1 + " " + "You Won";
 			}
 		} else if (z[0].textContent === "0") {
+			z[0].style.color = "red";
+			z[4].style.color = "red";
+			z[8].style.color = "red";
 			if (p2 == "") {
 				display_result1.innerHTML = "Player2" + " " + "You Won";
 			} else {
