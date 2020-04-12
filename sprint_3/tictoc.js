@@ -4,7 +4,7 @@ var divs;
 var i = 1;
 var grid_box = document.getElementById("grid_box");
 var c = 0;
-var counter = 0;
+var k = 0;
 var x;
 var bdy = document.querySelector("body");
 var display_result1 = document.getElementById("diplay_result1");
@@ -243,12 +243,12 @@ function check_winner() {
 			}
 		}
 	} else {
-		counter++;
+		k++;
 	}
-	return counter;
+	return k;
 }
 
-//Function to predict draw
+//Function to predict draaw
 function check_draw() {
 	var b = 0;
 	check_winner(counter);
@@ -259,9 +259,11 @@ function check_draw() {
 		}
 	}
 
-	console.log(b, counter);
-	if (b == z.length && counter >= 18) {
+	
+	if (b == z.length && k >= 18) {
+		console.log("NAME");
 		display_result1.textContent = "DRAW";
 	}
 	b = 0;
+	check_winner(a);
 }
