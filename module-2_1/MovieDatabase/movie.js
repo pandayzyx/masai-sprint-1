@@ -95,7 +95,7 @@ function get_data_for_batman() {
 				display_data_batman(data);
 			}
 		} else {
-			alert("Error code is" + xhr.sta);
+			alert("Error code is" + xhr.status);
 		}
 	};
 }
